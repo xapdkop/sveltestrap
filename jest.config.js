@@ -1,12 +1,12 @@
 module.exports = {
-  setupFilesAfterEnv: [
-    '@testing-library/svelte/cleanup-after-each',
-  ],
   transform: {
-    '^.+\\.js$': 'babel-jest',
-    '^.+\\.svelte$': 'jest-transform-svelte'
+    '^.+\\.svelte$': 'svelte-jester',
+    '^.+\\.js$': 'babel-jest'
   },
   moduleFileExtensions: ['js', 'svelte'],
+  transformIgnorePatterns: [
+    'node_modules/(?!(clsx)/)'
+  ],
   bail: false,
-  verbose: false
+  verbose: true
 };
