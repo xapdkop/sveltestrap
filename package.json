@@ -1,6 +1,7 @@
 {
-  "name": "sveltestrap",
-  "version": "3.4.0",
+  "name": "@xapdkop/sveltestrap",
+  "version": "0.0.1",
+  "license": "MIT",
   "main": "dist/sveltestrap.js",
   "module": "dist/sveltestrap.es.js",
   "jsnext:main": "dist/sveltestrap.es.js",
@@ -8,10 +9,7 @@
   "keywords": [
     "svelte"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:bestguy/sveltestrap.git"
-  },
+  "repository": "github:xapdkop/sveltestrap",
   "files": [
     "dist",
     "src"
