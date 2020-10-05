@@ -30,7 +30,7 @@
     "version": "npm run dist && npm run docs && git add -A"
   },
   "peerDependencies": {
-    "svelte": "^3.4.4"
+    "svelte": "^3.24.0"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",
