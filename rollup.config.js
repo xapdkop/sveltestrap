@@ -34,11 +34,7 @@ export default {
       dev: !production,
       // generate: production ? 'dom' : 'ssr',
       hydratable: true,
-      preprocess: autoPreprocess({
-        postcss: {
-          plugins: [require('autoprefixer')()]
-        }
-      })
+      preprocess: autoPreprocess()
     }),
     resolve(),
     commonjs(),
